@@ -1,0 +1,133 @@
+{
+  "lean": {
+    "version": "4.34.1",
+    "commit": "5045d0056413266e57c625dcd7c365b10e377c52"
+  },
+  "packages": [
+    {
+      "url": "https://github.com/leanprover-community/mathlib4.git",
+      "type": "git",
+      "subDir": null,
+      "scope": "",
+      "rev": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+      "name": "mathlib",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+      "inherited": false,
+      "configFile": "lakefile.lean"
+    },
+    {
+      "url": "https://github.com/leanprover-community/plausible",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "118aa17ee84656b8bd727fef7c458ee8c833385c",
+      "name": "plausible",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/LeanSearchClient",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "ddf04cf3949fa556442341e87d47f9f6e6074707",
+      "name": "LeanSearchClient",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/import-graph",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "e928b72544873815af278d38681b31c0293588e3",
+      "name": "importGraph",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/ProofWidgets4",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "106ff4fafc74ef4ac99d81dbf3ab399118f497a5",
+      "name": "proofwidgets",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.lean"
+    },
+    {
+      "url": "https://github.com/leanprover-community/aesop",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "355695d523e41d0554926416cba2a2b3544fbbc9",
+      "name": "aesop",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "master",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/quote4",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "6a489d9af5d0c47e5b259e2e8bcdfc1811b5a259",
+      "name": "Qq",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "master",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/batteries",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "f2effa3d803fda822b1f97b806c47cf2adfbcbc2",
+      "name": "batteries",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4-cli",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover",
+      "rev": "e92c9f15fdfacc8536f31cfb3b7ad26c3c8cd204",
+      "name": "Cli",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "v4.34.0",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    }
+  ],
+  "openai_math": {
+    "repository": "https://github.com/openai/math",
+    "commit": "4eaee87548250b2682affda7d05d947c05554bae",
+    "vendored_lean_files": 4136,
+    "license": "Apache-2.0"
+  },
+  "lower_formalization": {
+    "repository": "https://github.com/JENW1N/erdos790-lean",
+    "commit": "ca7ef62267bb255b709fb4b67caa7d8db4d9f248",
+    "permission": "Owner reports authorization exists on 2026-11-12. Written scope confirmation pending before public redistribution."
+  },
+  "kneser": {
+    "repository": "https://github.com/YaelDillies/misc-yd",
+    "commit": "f2f1d413b681dfd7a0f0e8481aee3ab7e0bae7ba",
+    "license": "Apache-2.0"
+  },
+  "original_manuscript_sha256": "f6e7210edbb70869b9f2b46c759dafc7eb1fd68b839d48df1b4d966942bfc3fd"
+}

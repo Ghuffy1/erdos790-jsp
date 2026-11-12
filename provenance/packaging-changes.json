@@ -1,0 +1,24 @@
+{
+  "source_changes": [
+    {
+      "path": "Erdos790/External/Kneser.lean",
+      "change": "Added prominent adaptation notice; mathematical source unchanged"
+    },
+    {
+      "path": "Erdos790/External/MulStab.lean",
+      "change": "Added prominent adaptation notice; mathematical source unchanged"
+    }
+  ],
+  "configuration_changes": [
+    "Portable relative Lake layout",
+    "Vendored unchanged OAI source closure",
+    "Retained all dependency revisions",
+    "Added independent original statement and bridge"
+  ],
+  "paper_changes": [
+    "Added full theorem, contributor designation and corollaries",
+    "Made largest-differing-digit convention explicit",
+    "Distinguished informal Kelley-Meka input from formal OAI input",
+    "Removed internal cross-references to earlier private drafts"
+  ]
+}
