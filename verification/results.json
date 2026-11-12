@@ -1,0 +1,210 @@
+{
+  "verified_utc": "2026-11-12T22:37:21.576445+00:00",
+  "selected_proof_commit": "0a69771b18df655fe47af2d5fb78a7d125fcd5f0",
+  "overall": "local Lean build and target verification passed. Additional whole-closure kernel replay timed out.",
+  "addresses_original": true,
+  "fully_solves_integer_host_order": true,
+  "lean_completeness": "meets",
+  "target_axioms": {
+    "Erdos790.matching_upper_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos790.matching_order": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos790.korsky": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos790.erdos_790_part_i": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos790.erdos_790_part_ii": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos790.erdos_790_exponent": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos790.erdos_790": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos790.eventually_rpow_le_l": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos790JSP.safe_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos790JSP.guaranteed_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos790JSP.extremal_eq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos790JSP.matching_order": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos790JSP.upper_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos790JSP.lower_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos790JSP.first_question": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos790JSP.second_question": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Erdos790JSP.exponent": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "OAI.Erdos3.manuscriptQuantitativeDensityTheorem": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "commands": {
+    "build": [
+      {
+        "command": [
+          "${LEAN_TOOLCHAIN}\\bin\\lake.exe",
+          "--no-cache",
+          "build",
+          "Erdos790",
+          "Erdos790JSP"
+        ],
+        "cwd": "${PROJECT}",
+        "started_utc": "2026-11-12T21:05:42.168756+00:00",
+        "timeout_seconds": 1800,
+        "log": "native-build-1.log",
+        "timed_out": false,
+        "exit_code": 0,
+        "elapsed_seconds": 1319.375,
+        "finished_utc": "2026-11-12T21:27:41.549098+00:00",
+        "sha256": "30531dbfc8ea26d1483a6201b7f3b421e9496e977a9e70e4ce36895bb6e06ad1",
+        "raw_sha256": "b086f104c5f03f151fcbec0b63daaf662500d451bd8314d654506979cc0df32e"
+      }
+    ],
+    "check": [
+      {
+        "command": [
+          "python",
+          "-B",
+          "${VERIFY_LEAN_HELPER}",
+          "${PROJECT}",
+          "--version"
+        ],
+        "cwd": "${PROJECT}",
+        "started_utc": "2026-11-12T22:08:02.420380+00:00",
+        "timeout_seconds": 60,
+        "log": "native-helper-version.log",
+        "timed_out": false,
+        "exit_code": 0,
+        "elapsed_seconds": 0.328,
+        "finished_utc": "2026-11-12T22:08:02.753383+00:00",
+        "sha256": "61f23c143285b0fda0f73bf4bcb4a3f595bdeed52b5565fbed4663d3551fc29a",
+        "raw_sha256": "61f23c143285b0fda0f73bf4bcb4a3f595bdeed52b5565fbed4663d3551fc29a"
+      },
+      {
+        "command": [
+          "python",
+          "-B",
+          "${VERIFY_LEAN_HELPER}",
+          "${PROJECT}",
+          "--check",
+          "Erdos790JSP/Audit.lean",
+          "--library",
+          "${PACKAGES}\\batteries\\.lake\\build\\lib\\lean",
+          "--library",
+          "${PACKAGES}\\Qq\\.lake\\build\\lib\\lean",
+          "--library",
+          "${PACKAGES}\\aesop\\.lake\\build\\lib\\lean",
+          "--library",
+          "${PACKAGES}\\proofwidgets\\.lake\\build\\lib\\lean",
+          "--library",
+          "${PACKAGES}\\importGraph\\.lake\\build\\lib\\lean",
+          "--library",
+          "${PACKAGES}\\LeanSearchClient\\.lake\\build\\lib\\lean",
+          "--library",
+          "${PACKAGES}\\plausible\\.lake\\build\\lib\\lean",
+          "--library",
+          "${PACKAGES}\\mathlib\\.lake\\build\\lib\\lean",
+          "--library",
+          "${OAI_BUILD}\\lib\\lean",
+          "--library",
+          "${BUILD}\\lib\\lean"
+        ],
+        "cwd": "${PROJECT}",
+        "started_utc": "2026-11-12T22:08:02.772428+00:00",
+        "timeout_seconds": 1200,
+        "log": "native-check-audit.log",
+        "timed_out": false,
+        "exit_code": 0,
+        "elapsed_seconds": 392.079,
+        "finished_utc": "2026-11-12T22:14:34.839759+00:00",
+        "sha256": "7e1a5599b941475895456eade1e4e79d61622983a6f6ec8427052d559dfea47d",
+        "raw_sha256": "cff0c452ea00d0eaa9f4fae937193766ef2aa3fe0a9143a4f408876f67d2801c"
+      }
+    ],
+    "kernel": [
+      {
+        "command": [
+          "${LEAN_TOOLCHAIN}\\bin\\leanchecker.exe",
+          "--fresh",
+          "-v",
+          "Erdos790JSP.StatementBridge"
+        ],
+        "cwd": "${PROJECT}",
+        "started_utc": "2026-11-12T22:14:34.898830+00:00",
+        "timeout_seconds": 1200,
+        "log": "native-kernel-1.log",
+        "timed_out": true,
+        "exit_code": 124,
+        "elapsed_seconds": 1207.797,
+        "finished_utc": "2026-11-12T22:34:42.690419+00:00",
+        "sha256": "b27bdaad4cc56d20f2b7f60df323e565cdfd749681e8471126d942f35f30d6c8",
+        "raw_sha256": "b27bdaad4cc56d20f2b7f60df323e565cdfd749681e8471126d942f35f30d6c8"
+      }
+    ]
+  },
+  "path_normalization": "Public evidence replaces local executable and workspace prefixes with documented placeholders. Raw logs and their hashes are retained privately.",
+  "independent_external_kernel_checker": "not run",
+  "fresh_kernel_replay": "incomplete after its 1200-second limit, exit 124",
+  "full_isolated_reproduction": "not completed after WSL startup failure",
+  "official_acceptance": "pending",
+  "priority": "unverified"
+}

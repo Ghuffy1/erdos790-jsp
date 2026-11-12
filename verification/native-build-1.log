@@ -1,0 +1,98 @@
+⚠ [3097/3130] Replayed Erdos790.Bisection
+warning: Erdos790/Bisection.lean:78:29: `if_true` has been deprecated: Use `ite_true` instead
+warning: Erdos790/Bisection.lean:92:29: `if_false` has been deprecated: Use `ite_false` instead
+⚠ [3123/3130] Replayed Erdos790.Upper.LatticeRefinement
+warning: Erdos790/Upper/LatticeRefinement.lean:50:34: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Erdos790/Upper/LatticeRefinement.lean:94:35: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3568/3594] Replayed Erdos790.Upper.TotientDensity
+warning: Erdos790/Upper/TotientDensity.lean:97:16: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3574/3664] Replayed Erdos790.Upper.PeriodicTents
+warning: Erdos790/Upper/PeriodicTents.lean:84:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: Erdos790/Upper/PeriodicTents.lean:90:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: Erdos790/Upper/PeriodicTents.lean:105:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: Erdos790/Upper/PeriodicTents.lean:110:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+⚠ [3579/3664] Replayed Erdos790.Upper.FiniteRadix
+warning: Erdos790/Upper/FiniteRadix.lean:20:36: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: Erdos790/Upper/FiniteRadix.lean:39:45: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: Erdos790/Upper/FiniteRadix.lean:42:45: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+⚠ [3583/3664] Replayed Erdos790.Upper.CoordinateFamilies
+warning: Erdos790/Upper/CoordinateFamilies.lean:26:38: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+⚠ [3598/3664] Replayed Erdos790.Upper.BinaryRadixGap
+warning: Erdos790/Upper/BinaryRadixGap.lean:58:35: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: Erdos790/Upper/BinaryRadixGap.lean:62:35: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: Erdos790/Upper/BinaryRadixGap.lean:65:35: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+⚠ [3599/3664] Replayed Erdos790.Upper.ScaleArithmetic
+warning: Erdos790/Upper/ScaleArithmetic.lean:10:28: Variable name `hstart` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hstart
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3600/3664] Replayed Erdos790.Upper.SeedCore
+warning: Erdos790/Upper/SeedCore.lean:78:23: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+⚠ [3605/3664] Replayed Erdos790.Upper.LatticeCoordinates
+warning: Erdos790/Upper/LatticeCoordinates.lean:123:42: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3608/3664] Replayed Erdos790.Upper.RoughSampling
+warning: Erdos790/Upper/RoughSampling.lean:22:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [3619/3665] Replayed Erdos790.Upper.ExteriorProfiles
+warning: Erdos790/Upper/ExteriorProfiles.lean:40:45: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+⚠ [3621/3665] Replayed Erdos790.Upper.PhaseSelection
+warning: Erdos790/Upper/PhaseSelection.lean:32:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos790/Upper/PhaseSelection.lean:51:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [3624/3668] Replayed Erdos790.Upper.DenseTranslatedCover
+warning: Erdos790/Upper/DenseTranslatedCover.lean:79:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [3649/3678] Replayed Erdos790.Upper.BinaryProfiles
+warning: Erdos790/Upper/BinaryProfiles.lean:53:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [3692/3699] Replayed Erdos790.Upper.IntervalLift
+warning: Erdos790/Upper/IntervalLift.lean:32:5: Variable name `hL` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hL
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [13199/13203] Built Erdos790 (500s)
+✔ [13201/13203] Built Erdos790JSP.StatementBridge (31s)
+✔ [13202/13203] Built Erdos790JSP (15s)
+Build completed successfully (13203 jobs).

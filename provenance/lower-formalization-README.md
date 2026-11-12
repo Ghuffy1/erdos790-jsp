@@ -1,3 +1,5 @@
+> Archived upstream README for the earlier lower-bound formalization and its subsidiary conclusions. Relative links have been pinned to the original source revision. The complete matching-order result is described in the main repository README.
+
 # Erdős Problem 790 (JSP-000649): complete Lean 4 formalization
 
 **Problem** ([Erdős #790](https://www.erdosproblems.com/790); Justin Sun Prize catalog
@@ -35,8 +37,8 @@ Claude (Anthropic).
 
 ## Formal statements
 
-All in [`Erdos790/Main.lean`](Erdos790/Main.lean), with definitions in
-[`Erdos790/Defs.lean`](Erdos790/Defs.lean):
+All in [`Erdos790/Main.lean`](https://github.com/JENW1N/erdos790-lean/blob/ca7ef62267bb255b709fb4b67caa7d8db4d9f248/Erdos790/Main.lean), with definitions in
+[`Erdos790/Defs.lean`](https://github.com/JENW1N/erdos790-lean/blob/ca7ef62267bb255b709fb4b67caa7d8db4d9f248/Erdos790/Defs.lean):
 
 ```lean
 def IsSumFree (B : Finset ℤ) : Prop :=

@@ -8,6 +8,8 @@ Reviewed on 12 November 2026 against the official awards repository at `b1bfe454
 
 The completed proof and formalization are dated in 2026, within the published achievement-date window beginning 1 January 2026. The committee must verify the evidence and decide mathematical scope, attribution, priority and award tier. No fixed award amount for this entry was found. [Selection rules](https://www.hejustinsun.com/prize/rules)
 
+The complete manuscript and Lean formalization may be submitted together. A prior journal publication is not a stated entry prerequisite. Publication venue and academic recognition are evaluation factors for the committee's tier and allocation decision. [Selection rules](https://www.hejustinsun.com/prize/rules), [contribution procedure](https://github.com/TheJustinSunPrize/awards/blob/b1bfe454d37db2838ef76756830aeb23c40de95e/CONTRIBUTING.md)
+
 ## Requirements and preparation
 
 | Requirement | Prepared evidence | Remaining action |

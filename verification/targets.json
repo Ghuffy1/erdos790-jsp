@@ -1,0 +1,207 @@
+{
+  "schema_version": 1,
+  "project": {
+    "root": "/project",
+    "repository": "https://github.com/Ghuffy1/erdos790-jsp",
+    "commit": "0a69771b18df655fe47af2d5fb78a7d125fcd5f0",
+    "toolchain": "leanprover/lean4:v4.34.1"
+  },
+  "problems": [
+    {
+      "id": "JSP-000649",
+      "source": "https://www.erdosproblems.com/790",
+      "requirements": [
+        {
+          "id": "original",
+          "description": "Arbitrary finite integer hosts with pairwise distinct summands and a distinct head, and maximal universal guarantee",
+          "targets": [
+            "safe",
+            "guaranteed",
+            "extremal",
+            "original_order"
+          ],
+          "coverage": "full",
+          "evidence": "verification/STATEMENT.md"
+        },
+        {
+          "id": "order",
+          "description": "Positive absolute constants and both bounds for every sufficiently large natural size",
+          "targets": [
+            "upper",
+            "lower",
+            "order",
+            "original_upper",
+            "original_lower",
+            "original_order",
+            "progressions"
+          ],
+          "coverage": "full",
+          "evidence": "verification/STATEMENT.md"
+        },
+        {
+          "id": "questions",
+          "description": "Both explicit subsidiary questions and stated power/exponent corollaries",
+          "targets": [
+            "part_i",
+            "part_ii",
+            "exponent",
+            "subsidiary",
+            "power",
+            "original_i",
+            "original_ii",
+            "original_exponent"
+          ],
+          "coverage": "full",
+          "evidence": "verification/STATEMENT.md"
+        }
+      ]
+    }
+  ],
+  "targets": [
+    {
+      "id": "upper",
+      "problem": "JSP-000649",
+      "role": "theorem",
+      "module": "Erdos790.Upper.Full",
+      "source": "Erdos790/Upper/Full.lean",
+      "declaration": "Erdos790.matching_upper_bound"
+    },
+    {
+      "id": "order",
+      "problem": "JSP-000649",
+      "role": "theorem",
+      "module": "Erdos790.Upper.Full",
+      "source": "Erdos790/Upper/Full.lean",
+      "declaration": "Erdos790.matching_order"
+    },
+    {
+      "id": "lower",
+      "problem": "JSP-000649",
+      "role": "theorem",
+      "module": "Erdos790.Main",
+      "source": "Erdos790/Main.lean",
+      "declaration": "Erdos790.korsky"
+    },
+    {
+      "id": "part_i",
+      "problem": "JSP-000649",
+      "role": "theorem",
+      "module": "Erdos790.Main",
+      "source": "Erdos790/Main.lean",
+      "declaration": "Erdos790.erdos_790_part_i"
+    },
+    {
+      "id": "part_ii",
+      "problem": "JSP-000649",
+      "role": "theorem",
+      "module": "Erdos790.Main",
+      "source": "Erdos790/Main.lean",
+      "declaration": "Erdos790.erdos_790_part_ii"
+    },
+    {
+      "id": "exponent",
+      "problem": "JSP-000649",
+      "role": "theorem",
+      "module": "Erdos790.Main",
+      "source": "Erdos790/Main.lean",
+      "declaration": "Erdos790.erdos_790_exponent"
+    },
+    {
+      "id": "subsidiary",
+      "problem": "JSP-000649",
+      "role": "theorem",
+      "module": "Erdos790.Main",
+      "source": "Erdos790/Main.lean",
+      "declaration": "Erdos790.erdos_790"
+    },
+    {
+      "id": "power",
+      "problem": "JSP-000649",
+      "role": "theorem",
+      "module": "Erdos790.Main",
+      "source": "Erdos790/Main.lean",
+      "declaration": "Erdos790.eventually_rpow_le_l"
+    },
+    {
+      "id": "safe",
+      "problem": "JSP-000649",
+      "role": "bridge",
+      "module": "Erdos790JSP.StatementBridge",
+      "source": "Erdos790JSP/StatementBridge.lean",
+      "declaration": "Erdos790JSP.safe_iff"
+    },
+    {
+      "id": "guaranteed",
+      "problem": "JSP-000649",
+      "role": "bridge",
+      "module": "Erdos790JSP.StatementBridge",
+      "source": "Erdos790JSP/StatementBridge.lean",
+      "declaration": "Erdos790JSP.guaranteed_iff"
+    },
+    {
+      "id": "extremal",
+      "problem": "JSP-000649",
+      "role": "bridge",
+      "module": "Erdos790JSP.StatementBridge",
+      "source": "Erdos790JSP/StatementBridge.lean",
+      "declaration": "Erdos790JSP.extremal_eq"
+    },
+    {
+      "id": "original_order",
+      "problem": "JSP-000649",
+      "role": "bridge",
+      "module": "Erdos790JSP.StatementBridge",
+      "source": "Erdos790JSP/StatementBridge.lean",
+      "declaration": "Erdos790JSP.matching_order"
+    },
+    {
+      "id": "original_upper",
+      "problem": "JSP-000649",
+      "role": "bridge",
+      "module": "Erdos790JSP.StatementBridge",
+      "source": "Erdos790JSP/StatementBridge.lean",
+      "declaration": "Erdos790JSP.upper_bound"
+    },
+    {
+      "id": "original_lower",
+      "problem": "JSP-000649",
+      "role": "bridge",
+      "module": "Erdos790JSP.StatementBridge",
+      "source": "Erdos790JSP/StatementBridge.lean",
+      "declaration": "Erdos790JSP.lower_bound"
+    },
+    {
+      "id": "original_i",
+      "problem": "JSP-000649",
+      "role": "bridge",
+      "module": "Erdos790JSP.StatementBridge",
+      "source": "Erdos790JSP/StatementBridge.lean",
+      "declaration": "Erdos790JSP.first_question"
+    },
+    {
+      "id": "original_ii",
+      "problem": "JSP-000649",
+      "role": "bridge",
+      "module": "Erdos790JSP.StatementBridge",
+      "source": "Erdos790JSP/StatementBridge.lean",
+      "declaration": "Erdos790JSP.second_question"
+    },
+    {
+      "id": "original_exponent",
+      "problem": "JSP-000649",
+      "role": "bridge",
+      "module": "Erdos790JSP.StatementBridge",
+      "source": "Erdos790JSP/StatementBridge.lean",
+      "declaration": "Erdos790JSP.exponent"
+    },
+    {
+      "id": "progressions",
+      "problem": "JSP-000649",
+      "role": "theorem",
+      "module": "OAI.Combinatorics.Progressions.Results.Conclusions",
+      "source": "vendor/openai_math/lean/OAI/Combinatorics/Progressions/Results/Conclusions.lean",
+      "declaration": "OAI.Erdos3.manuscriptQuantitativeDensityTheorem"
+    }
+  ],
+  "repository_status": "Proposed remote URL, unpublished and uncreated. Actual source is the pinned private local repository."
+}

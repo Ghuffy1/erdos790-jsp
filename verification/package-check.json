@@ -1,0 +1,20 @@
+{
+  "checked_utc": "2026-11-12T22:36:12.022187+00:00",
+  "selected_proof_commit": "0a69771b18df655fe47af2d5fb78a7d125fcd5f0",
+  "checkout_head_matches": true,
+  "checkout_clean": true,
+  "lean_source_hashes_checked": 4280,
+  "lean_sources_match": true,
+  "tracked_file_count": 4303,
+  "tracked_binary_artifacts": [],
+  "git_dependency_count": 9,
+  "local_dependency_count": 1,
+  "catalog_fields_changed": [
+    "Attribution basis",
+    "Current status",
+    "Lean proof",
+    "Publication details"
+  ],
+  "source_repository_remotes": "",
+  "errors": []
+}

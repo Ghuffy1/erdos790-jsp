@@ -1,0 +1,19 @@
+--- a/problems/catalog-0601-0700.md
++++ b/problems/catalog-0601-0700.md
+@@ -830,12 +830,13 @@
+ | Date proposed | No later than 1965 (bibliographic evidence) |
+ | Mathematical area | Additive combinatorics |
+ | Problem description | How large a subset of an arbitrary finite integer set can have no element equal to a sum of distinct other elements? |
+-| Current status | Open |
+-| Lean proof | No |
++| Current status | Solved<br>Proof contributors: Ghuffy1, JENW1N, H0W4RD-dev, et al. for the matching upper bound and synthesis. Samuel Korsky for the lower bound. |
++| Lean proof | Yes — [complete source](https://github.com/Ghuffy1/erdos790-jsp/tree/0a69771b18df655fe47af2d5fb78a7d125fcd5f0), `Erdos790.matching_order` and `Erdos790JSP.matching_order`. Lean 4.34.1. Proposed full-result contributors are Ghuffy1, JENW1N, H0W4RD-dev, et al., with roles detailed in [credits](https://github.com/Ghuffy1/erdos790-jsp/blob/0a69771b18df655fe47af2d5fb78a7d125fcd5f0/CREDITS.md). Imported lower formalization by JENW1N and lkruer, with earlier HongJin HE formalization credited. |
+ | Eligible to claim | No |
+ | Historical bounty |  |
+ | Elapsed years | About 61 years (since 1965) |
+-| Publication details |  |
++| Publication details | [Matching order for Erdős problem 790](https://github.com/Ghuffy1/erdos790-jsp/blob/0a69771b18df655fe47af2d5fb78a7d125fcd5f0/paper/erdos790.md), Theorem 1, version 12 November 2026. [Large Sum-Free Subsets of Sets of Integers](https://drive.google.com/file/d/1S77Jwk5i9naiKJ_IQTK5_4Vh-X4LUfCf/view), Theorem 1, 13 September 2026. |
++| Attribution basis | [Contribution and source credits](https://github.com/Ghuffy1/erdos790-jsp/blob/0a69771b18df655fe47af2d5fb78a7d125fcd5f0/CREDITS.md), [prior discussion](https://github.com/TheJustinSunPrize/awards/pull/4701), [scope request](https://github.com/TheJustinSunPrize/awards/issues/4923). Full equal contribution credit is designated for Ghuffy1, JENW1N, H0W4RD-dev and lkruer. Earlier lower-result formalization by HongJin HE retained. New contributor roles and priority subject to review. |
+ | Scholarly recognition |  |
+ 
+ <a id="JSP-000650"></a>

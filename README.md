@@ -37,7 +37,6 @@ Use `leanprover/lean4:v4.34.1`, pinned in `lean-toolchain`. Mathlib and all tran
 After checking out the selected proof commit from `submission/SOURCE.json`, run from the repository root.
 
 ```sh
-lake exe cache get
 lake --no-cache build Erdos790 Erdos790JSP
 lake --no-cache build +Erdos790.Audit +Erdos790JSP.Audit
 lake env lean Erdos790/Upper/Full.lean
@@ -46,9 +45,9 @@ lake env lean Erdos790JSP/Audit.lean
 lake env leanchecker --fresh Erdos790JSP.StatementBridge
 ```
 
-`cache get` retrieves the pinned library cache. The subsequent commands build the local sources. A fresh source-only reproduction can omit the first command, at a greater build cost. The final command replays the imported closure using Lean's kernel. It uses the same kernel implementation as Lean.
+These commands build the sources at the pinned revisions. Compatible existing dependency outputs can be reused after checking their source and toolchain identities. Any optional Mathlib cache fetch should be scoped to the imports needed by the proof. The final command replays the imported closure using Lean's kernel. It uses the same kernel implementation as Lean.
 
-The declared proof and bridge targets must report only `propext`, `Classical.choice` and `Quot.sound` in their axiom dependencies. Actual commands, outcomes, cache provenance and limitations appear in [the verification report](verification/REPORT.md). Instructions are distinct from completed checks.
+The declared proof and bridge targets must report only `propext`, `Classical.choice` and `Quot.sound` in their axiom dependencies. Actual commands, outcomes, cache provenance and limitations appear in [the verification report](verification/REPORT.md). The local Windows build and all 18 target axiom checks passed. The additional fresh whole-closure kernel replay timed out at its 1200-second limit. The full isolated reproduction remains outstanding after WSL startup failure. The report records these completed and incomplete levels.
 
 ## Submission status
 

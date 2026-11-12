@@ -8,6 +8,8 @@ The earlier review retained 74 public retrievals and 214 arXiv records with abst
 
 The latest refresh checked the official catalog, public scope and attribution discussions, current claim status and public searches for the problem and original titles. Only established public terminology was sent to search services. The private proof text was kept local.
 
+The 12 November refresh also screened Jagannath Bhanja's 2026 *On the size and structure of certain subsequence sum set* through the publisher's abstract, introduction and displayed section results. Its extremal quantities count subsum sets and their minimizers in integers and finite cyclic groups. This inspection added no competing matching estimate for the guaranteed subset function l(n). [Publisher record](https://www.sciencedirect.com/science/article/abs/pii/S0012365X25005837)
+
 ## Prior mathematics
 
 | Work | Relation to the full result |
@@ -34,10 +36,13 @@ Original and prior sources are linked in the manuscript. [Erdős 1973 source](ht
 | Awards PR 894 | Closed, unmerged interval construction, with no complete arbitrary-host solution claimed |
 | Awards PR 2346 | Closed, unmerged scoped record with trivial target declarations |
 | Awards PR 3399 | Closed, unmerged record mapping JSP-000649 to Erdős 649, a mismatched original problem |
-| `competemath/tengoku` | Recorded lower-result scope and remaining upper gap |
-| `google-deepmind/formal-conjectures` PR 7598 | Statement work with placeholders at the inspected revision |
-| `ryantuck/erdos-ai`, `rjwalters/lean-genius`, `daedalus/alphaproof-nexus` | Inspected statements, placeholders, axioms or empty theorem blocks did not supply the matching result |
-| `plasma-ai/erdos`, `przchojecki/agentic-erdos`, Problem a Day and public Botnet record | Prior-bound cataloging or partial work at inspected revisions |
+| [`competemath/tengoku` at `13757ca5`](https://github.com/competemath/tengoku/blob/13757ca5ae136638242a2fe56387eda7ab7ef940/Tengoku/ErdosLean/ErdosLean/Erdos790/Statement.lean) | Recorded lower-result scope and remaining upper gap |
+| [`google-deepmind/formal-conjectures` PR 7598](https://github.com/google-deepmind/formal-conjectures/pull/7598) | Statement work with placeholders at the inspected revision |
+| [`ryantuck/erdos-ai` at `f5e45cc9`](https://github.com/ryantuck/erdos-ai/blob/f5e45cc97f93cd22802b2f1c37f08f0bf7becb86/deepmind/deepmind/790.lean) | Prior-bound statements and placeholders |
+| [`rjwalters/lean-genius` at `d8540c5a`](https://github.com/rjwalters/lean-genius/blob/d8540c5a48f69a9f57b87c549c6e09dad63a0670/proofs/Proofs/Erdos790Problem.lean) | Axiomatized key statements did not supply the matching result |
+| [`daedalus/alphaproof-nexus` at `4e65a6ca`](https://github.com/daedalus/alphaproof-nexus/blob/4e65a6ca81655f090a3c8dcf9f56e4a38c984f4c/problems/erdos/790/Erdos790.lean) | Empty theorem block |
+| [`plasma-ai/erdos` at `b6f7945a`](https://github.com/plasma-ai/erdos/blob/b6f7945a32a8892757db3d84cde1e4b21e557ce4/wiki/problems/additive_combinatorics/E0790/_index.md) | Prior-bound catalog record |
+| [`przchojecki/agentic-erdos` at `c58f8589`](https://github.com/przchojecki/agentic-erdos/blob/c58f8589136880d44f4a4299e5fc01fd5084506f/notes/ep790.md), [Problem a Day](https://www.erdosproblemaday.com/report/790) and [public Botnet record](https://botnet.com/topics/a76e0fdb-a165-44af-b2cf-9e03490c5dd2) | Catalog information or finite/square-root partial work at inspected revisions |
 | `openai/math@4eaee87548250b2682affda7d05d947c05554bae` | Source of the progression input; its publication and preprint indexes did not contain an Erdős 790 matching-order result |
 
 A previously cited number 4610 returned HTTP 404 in the present awards refresh and supplies no current priority evidence. The missing record is retained as a search limitation. The source review also screened work on ordinary three-term sum-free sets and infinite sequences to ensure the finite arbitrary-length distinct-summand condition matched.

@@ -1,0 +1,28 @@
+{
+  "ready_for_target_checks": true,
+  "issues": [],
+  "head": "0a69771b18df655fe47af2d5fb78a7d125fcd5f0",
+  "git_status": "",
+  "toolchain_file": "leanprover/lean4:v4.34.1",
+  "file_sha256": {
+    "Erdos790/Main.lean": "3b4fdc0cb4a25707721a5d3d28292af44e3cfc4bdfcf87f9f3bacb4151af23b3",
+    "Erdos790/Upper/Full.lean": "b51fa4d023a48364861bb793e1e7f6f95cb09f7d4145c8a3869b30c62a7ea718",
+    "Erdos790JSP/StatementBridge.lean": "ee6fb7afbfbaa0e0c93d23811200518ba61936238e6b00352821af44cff0e73b",
+    "lake-manifest.json": "76cd194e17e2d905a1b5661736f41059ac71bb4181f9dde38724e2bace5c591f",
+    "lakefile.lean": null,
+    "lakefile.toml": "fcac3e43a618ff9098459a1c1fac7d3ace3157b538f9734ebecc78912db822dd",
+    "lean-toolchain": "8152090414016dd5dc871752f8ce4ecdbd604d9845758e9b9047cb80101280b5",
+    "vendor/openai_math/lean/OAI/Combinatorics/Progressions/Results/Conclusions.lean": "6b4f64c5a42ab4a99b1942f9110721c5c8a86fe490aac01b889e692e5a9f69f6"
+  },
+  "manual_preconditions": [
+    "isolation and resource limits established",
+    "clean source build and trusted cache provenance recorded",
+    "actual dependency SHAs match fixed evidence",
+    "tool binaries are trusted and match the pinned toolchain",
+    "all untracked inputs and module/source mappings reviewed"
+  ],
+  "checker_compatibility": "not_probed; inspect pinned checker separately",
+  "manifest_sha256": "bd3992997212ed863ba12e002c978986ca68637578c71e0340a65b59373b8261",
+  "script_sha256": "fb8c7e3b815d266425581a4f36d2343b1e3d7eae7a0cd8f4c51c055af65d01e0",
+  "exit_code": 0
+}

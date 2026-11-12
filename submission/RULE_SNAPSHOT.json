@@ -1,0 +1,22 @@
+{
+  "reviewed_utc": "2026-11-12T22:15:33Z",
+  "awards_repository": "https://github.com/TheJustinSunPrize/awards",
+  "awards_commit": "b1bfe454d37db2838ef76756830aeb23c40de95e",
+  "entry": "JSP-000649",
+  "erdos_problem": 790,
+  "process": "legacy",
+  "mathdb_pilot": false,
+  "catalog_status": "Open",
+  "catalog_lean": "No",
+  "catalog_eligible": "No",
+  "related_pr": {
+    "number": 4701,
+    "state": "open",
+    "draft": true,
+    "merged": false,
+    "head_commit": "53f0e5e1a35ddc34af307a0f07412dca6caf9c26",
+    "scope": "Prior lower bound and subsidiary questions"
+  },
+  "worldwide_priority": "unverified",
+  "publication_by_this_preparation": false
+}
