@@ -3,7 +3,7 @@
   "repository_status": "proposed, uncreated and unpublished",
   "branch": "main",
   "selected_proof_commit": "0a69771b18df655fe47af2d5fb78a7d125fcd5f0",
-  "evidence_commit": "recorded in the private preparation receipt after evidence commit creation",
+  "evidence_commit": "22cf5480ffb8aaa9c0f3443c9c0a8457fe8285ab",
   "owner": "Ghuffy1",
   "equal_contributors": [
     "Ghuffy1",
@@ -11,5 +11,6 @@
     "H0W4RD-dev",
     "lkruer"
   ],
-  "attribution_status": "owner-designated, individual confirmations pending"
+  "attribution_status": "owner-designated, individual confirmations pending",
+  "verification": "Windows source build and 18 standard-axiom target checks passed. Additional fresh whole-closure kernel replay timed out. Complete isolated reproduction outstanding."
 }
