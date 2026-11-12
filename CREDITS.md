@@ -6,6 +6,8 @@ The owner has designated **Ghuffy1, JENW1N, H0W4RD-dev and lkruer** as equal con
 
 The new upper argument originated in a private multi-agent research session and was formalized with Codex assistance. Internal mathematical reviews and the reproducible Lean verification support the result. These reviews are team-internal and machine-assisted. No external specialist or JSP acceptance is asserted. No historical coauthor commits or signatures have been manufactured.
 
+The source and packaging commits use the `Codex preparation` author identity. Ghuffy1 authorized publication through their owner account. The account-to-contribution record and each contributor's mathematical and formalization roles remain subject to JSP attribution review.
+
 ## Lower bound and earlier questions
 
 **Samuel Korsky** proved the lower bound of order n/(log n)² in *Large Sum-Free Subsets of Sets of Integers*, Theorem 1, dated 13 September 2026. Korsky attributes the main bisection-list idea to GPT Astra and states that he completed and verified the proof. The present synthesis uses this result with credit. Its subsidiary asymptotic consequences are earlier results. [Public claim and manuscript](https://www.erdosproblems.com/forum/thread/790/proof-claims)

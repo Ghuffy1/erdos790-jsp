@@ -1,6 +1,6 @@
 {
   "repository": "https://github.com/Ghuffy1/erdos790-jsp",
-  "repository_status": "proposed, uncreated and unpublished",
+  "repository_status": "Public release authorized by Ghuffy1 on 12 November 2026",
   "branch": "main",
   "selected_proof_commit": "0a69771b18df655fe47af2d5fb78a7d125fcd5f0",
   "evidence_commit": "22cf5480ffb8aaa9c0f3443c9c0a8457fe8285ab",
@@ -12,5 +12,7 @@
     "lkruer"
   ],
   "attribution_status": "owner-designated, individual confirmations pending",
-  "verification": "Windows source build and 18 standard-axiom target checks passed. Additional fresh whole-closure kernel replay timed out. Complete isolated reproduction outstanding."
+  "verification": "Windows source build and 18 standard-axiom target checks passed. Additional fresh whole-closure kernel replay timed out. Complete isolated reproduction outstanding.",
+  "publication_authorized_utc": "2026-11-12T23:42:03.364768+00:00",
+  "publication_scope": "Proof source repository and JSP catalog contribution. Personal award claims follow the applicable review and merge requirements."
 }

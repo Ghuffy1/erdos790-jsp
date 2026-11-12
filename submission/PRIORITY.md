@@ -51,6 +51,6 @@ A previously cited number 4610 returned HTTP 404 in the present awards refresh a
 
 ## Outstanding priority evidence
 
-The new complete upper proof and formalization have private dated provenance. The selected local Git commit records the packaged source at its actual preparation time. Neither fact alone provides the independently checkable public chronology required by JSP. Publication and the associated public history await the owner's instruction.
+The new complete upper proof and formalization have private dated provenance. The selected Git commit records the packaged source at its actual preparation time. Public repository history begins with the owner-authorized release on 12 November 2026. Public release metadata and subsequent source history provide independently checkable evidence of availability. Earlier private creation dates remain subject to corroboration and JSP review.
 
 JSP assesses mathematical priority and Lean priority separately. Earlier lower-bound formalizations cannot be treated as a newly established first formalization by this submission. The scope of the new full-order result, its original upper-bound formalization and all earlier contributions must be presented together for official attribution review.

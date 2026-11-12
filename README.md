@@ -1,6 +1,6 @@
 # Erdős 790 — matching order
 
-Private JSP-000649 submission draft prepared on 12 November 2026.
+JSP-000649 submission prepared on 12 November 2026 and released by Ghuffy1.
 
 For every sufficiently large integer n, the largest universally guaranteed distinct-summand-free subset of an n-element integer set has order
 
@@ -12,7 +12,7 @@ The new contribution supplies the matching upper bound. Samuel Korsky proved the
 
 ## Contributors
 
-**Ghuffy1** is the repository owner and principal submitter. **Ghuffy1, JENW1N, H0W4RD-dev and lkruer** receive equal contribution credit under the owner's requested designation. Individual contributor confirmations and role-specific evidence remain in the private release checklist. Equal contribution credit does not specify a prize-payment arrangement.
+**Ghuffy1** is the repository owner and principal submitter. **Ghuffy1, JENW1N, H0W4RD-dev and lkruer** receive equal contribution credit under the owner's requested designation. Individual contributor roles and supporting evidence remain subject to attribution review. Equal contribution credit does not specify a prize-payment arrangement.
 
 Historical mathematics, imported formalizations and AI assistance are identified in [CREDITS.md](CREDITS.md). This repository contains original upper-bound formalization together with explicitly attributed dependency sources. The lower-bound formalization retains its prior authorship.
 
@@ -53,8 +53,8 @@ The declared proof and bridge targets must report only `propext`, `Classical.cho
 
 JSP-000649 follows the legacy process. The checked official catalog currently records Open, Lean proof No and Eligible to claim No. A complete result can be submitted for review. Official mathematical acceptance, Lean acceptance, priority adjudication and award eligibility remain pending. [Pinned rules](submission/RULES.md)
 
-The intended remote is `Ghuffy1/erdos790-jsp`, branch `main`. This name is a preparation choice. A remote repository and public branch have not been created. The [PR draft](submission/PR_DRAFT.md) and [catalog patch](submission/catalog.patch) are prepared for a later authorized publication. The selected local proof commit and evidence commit are recorded separately.
+The original source repository is [Ghuffy1/erdos790-jsp](https://github.com/Ghuffy1/erdos790-jsp), branch `main`. The [submission text](submission/PR_DRAFT.md) and [catalog patch](submission/catalog.patch) accompany the JSP contribution. The selected proof commit and verification-evidence commit are recorded separately in [SOURCE.json](submission/SOURCE.json).
 
 ## License and provenance
 
-[LICENSE.md](LICENSE.md) identifies rights by source. The owner reports authorization for the adapted JENW1N/lkruer lower-bound files, with the grant or confirmation still to be supplied before public distribution. Preserve the Apache licenses for OpenAI and Kneser sources and the original source headers. All imported source bytes have a [SHA-256 manifest](provenance/source-files.json).
+[LICENSE.md](LICENSE.md) identifies rights by source. Ghuffy1 confirms authorization to redistribute the adapted JENW1N/lkruer lower-bound files. Further written confirmation and its precise scope can be supplied for rights review. Preserve the Apache licenses for OpenAI and Kneser sources and the original source headers. All imported source bytes have a [SHA-256 manifest](provenance/source-files.json).

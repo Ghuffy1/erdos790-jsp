@@ -74,4 +74,4 @@ The allowed set is `propext`, `Classical.choice` and `Quot.sound`. These are sta
 
 This report verifies the stated mathematical/formal result. The entry remains officially Open / Lean No / Eligible No until JSP's review and record updates. The legacy submission path exists. The package retains the requested owner and equal-contribution designation, while individual contribution confirmations, the reported lower-source permission grant, public provenance and the source-ownership route for co-claimants remain release/claim items. [Rules review](../submission/RULES.md), [priority review](../submission/PRIORITY.md)
 
-The public search found no earlier matching upper estimate. Worldwide first priority remains unverified. No repository, proof, PR, claim, email or other announcement has been published by this preparation.
+The public search found no earlier matching upper estimate. Worldwide first priority remains unverified. At the completion of these verification checks, this preparation was private. Ghuffy1 subsequently authorized public release on 12 November 2026. The recorded checks and their limitations apply to the unchanged selected proof commit.

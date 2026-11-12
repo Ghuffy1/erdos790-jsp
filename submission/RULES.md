@@ -1,6 +1,6 @@
 # JSP rule and eligibility review
 
-Reviewed on 12 November 2026 against the official awards repository at `b1bfe454d37db2838ef76756830aeb23c40de95e`, together with the live selection rules, claim pages and FAQ. The local package is a private draft. Official acceptance and award eligibility have not been granted.
+Reviewed on 12 November 2026 against the official awards repository at `b1bfe454d37db2838ef76756830aeb23c40de95e`, together with the live selection rules, claim pages and FAQ. The package is submitted for official mathematical and Lean review. Official acceptance and award eligibility have not been granted.
 
 ## Eligibility assessment
 

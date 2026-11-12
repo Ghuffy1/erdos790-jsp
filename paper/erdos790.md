@@ -1,6 +1,6 @@
 # Matching order for Erdős problem 790
 
-Private submission draft, 12 November 2026.
+JSP submission manuscript, 12 November 2026.
 
 Ghuffy1, JENW1N, H0W4RD-dev and lkruer are credited equally for this submission at the owner's direction. Ghuffy1 is the repository owner and principal submitting contact. Historical theorem and formalization credits are given below and in CREDITS.md. This contributor designation awaits each contributor's confirmation and is separate from any prize allocation.
 

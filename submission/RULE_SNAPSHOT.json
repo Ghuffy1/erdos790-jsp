@@ -1,5 +1,5 @@
 {
-  "reviewed_utc": "2026-11-12T22:15:33Z",
+  "reviewed_utc": "2026-11-12T23:42:03.364768+00:00",
   "awards_repository": "https://github.com/TheJustinSunPrize/awards",
   "awards_commit": "b1bfe454d37db2838ef76756830aeb23c40de95e",
   "entry": "JSP-000649",
@@ -18,5 +18,6 @@
     "scope": "Prior lower bound and subsidiary questions"
   },
   "worldwide_priority": "unverified",
-  "publication_by_this_preparation": false
+  "publication_by_this_preparation": false,
+  "publication_authorized_utc": "2026-11-12T23:42:03.364768+00:00"
 }

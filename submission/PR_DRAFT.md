@@ -1,6 +1,6 @@
 # Complete matching-order proof for JSP-000649 (Erdős 790)
 
-Private, unsubmitted draft. The referenced remote is proposed and has not been created. Public links become usable only after authorized publication. Contributor-role confirmations and release rights remain recorded in the private checklist.
+Submitted by Ghuffy1 for the complete finite integer-host matching-order result. The source repository contains the original upper-bound development, credited lower-bound formalization, independent statement bridge and recorded verification evidence. Individual attribution and award eligibility remain subject to JSP review.
 
 ## Submission type
 
@@ -15,7 +15,7 @@ This is a legacy-process contribution for JSP-000649, which is outside the MathD
 - Original source is Erdős 790 and the cited 1973 formulation at printed page 130. [Original statement](https://www.erdosproblems.com/790), [1973 source](https://www.renyi.hu/~p_erdos/1973-21.pdf)
 - Current entry is Open / Lean No / Eligible No. The proposed catalog change records a complete matching-order result, its full formalization, source and credits. Maintainers determine acceptance and reconcile eligibility and the index.
 - Related records are PR 4701, withdrawn claim 4702, and scope request 4923. They concern Korsky's lower bound and its subsidiary answers. This contribution adds the matching upper bound. Earlier scoped or mismapped PRs 894, 2346 and 3399 are discussed in the priority review. [Priority review](https://github.com/Ghuffy1/erdos790-jsp/blob/22cf5480ffb8aaa9c0f3443c9c0a8457fe8285ab/submission/PRIORITY.md)
-- The mathematical manuscript is *Matching order for Erdős problem 790*, private draft dated 12 November 2026, Theorem 1 and proof in Sections 1–5, with subsidiary conclusions in Corollary 2. The new upper construction combines with Korsky's credited lower bound. [Manuscript](https://github.com/Ghuffy1/erdos790-jsp/blob/0a69771b18df655fe47af2d5fb78a7d125fcd5f0/paper/erdos790.md)
+- The mathematical manuscript is *Matching order for Erdős problem 790*, manuscript dated 12 November 2026, Theorem 1 and proof in Sections 1–5, with subsidiary conclusions in Corollary 2. The new upper construction combines with Korsky's credited lower bound. [Manuscript](https://github.com/Ghuffy1/erdos790-jsp/blob/0a69771b18df655fe47af2d5fb78a7d125fcd5f0/paper/erdos790.md)
 
 ## Formal statement
 
@@ -27,7 +27,7 @@ This is a legacy-process contribution for JSP-000649, which is outside the MathD
 
 ## Proof submission
 
-The proposed original repository contains the new upper-bound development, explicit imported-source attribution, the full proof and the independent statement bridge. Ghuffy1 is the owner and principal submitter.
+The original repository contains the new upper-bound development, explicit imported-source attribution, the full proof and the independent statement bridge. Ghuffy1 is the owner and principal submitter.
 
 ```json
 [
@@ -63,25 +63,27 @@ The named target audit prints complete declarations and transitive axiom sets. A
 
 ## Pre-submission Lean verification
 
-The local Windows build and all 18 direct target/axiom checks using the shared verification helper passed. The additional fresh whole-closure kernel replay timed out after 1200 seconds, and a full isolated reproduction is outstanding after WSL startup failure. The private self-check uses the official lean-verify guidance at awards revision `b1bfe454d37db2838ef76756830aeb23c40de95e`. This optional report records the selected proof commit `0a69771b18df655fe47af2d5fb78a7d125fcd5f0`, actual toolchain, source hashes, dependency pins, separate original-statement checks, axiom output, kernel replay and any limitations. Evidence is added in a later commit while the selected proof revision remains fixed. [Verification report](https://github.com/Ghuffy1/erdos790-jsp/blob/22cf5480ffb8aaa9c0f3443c9c0a8457fe8285ab/verification/REPORT.md), [target manifest](https://github.com/Ghuffy1/erdos790-jsp/blob/22cf5480ffb8aaa9c0f3443c9c0a8457fe8285ab/verification/targets.json)
+The local Windows build and all 18 direct target/axiom checks using the shared verification helper passed. The additional fresh whole-closure kernel replay timed out after 1200 seconds, and a full isolated reproduction is outstanding after WSL startup failure. The pre-submission self-check used the official lean-verify guidance at awards revision `b1bfe454d37db2838ef76756830aeb23c40de95e`. This optional report records the selected proof commit `0a69771b18df655fe47af2d5fb78a7d125fcd5f0`, actual toolchain, source hashes, dependency pins, separate original-statement checks, axiom output, kernel replay and any limitations. Evidence is added in a later commit while the selected proof revision remains fixed. [Verification report](https://github.com/Ghuffy1/erdos790-jsp/blob/22cf5480ffb8aaa9c0f3443c9c0a8457fe8285ab/verification/REPORT.md), [target manifest](https://github.com/Ghuffy1/erdos790-jsp/blob/22cf5480ffb8aaa9c0f3443c9c0a8457fe8285ab/verification/targets.json)
 
 ## Attribution
 
 The submitting contributors have a potential award interest. Each future applicant must claim their own contribution through the applicable process.
 
-- Proposed submission contributors are **Ghuffy1, JENW1N, H0W4RD-dev and lkruer**, with equal contribution credit, and **Ghuffy1** as owner and principal submitter. Individual role confirmations and supporting public authorship evidence must be supplied before asserting each person's claim entitlement.
+The local source commits use the `Codex preparation` author identity for the assisted formalization and packaging. Ghuffy1 publishes the original repository from their owner account. The contributor record supplies the requested equal credit, and role-specific attribution remains subject to review. Redistribution authorization for the adapted lower-bound files was confirmed by Ghuffy1. The [rights record](https://github.com/Ghuffy1/erdos790-jsp/blob/main/LICENSE.md) retains the source-specific licensing and permission basis.
+
+- Submission contributors are **Ghuffy1, JENW1N, H0W4RD-dev and lkruer**, with equal contribution credit, and **Ghuffy1** as owner and principal submitter. Individual role confirmations and supporting public authorship evidence must be supplied before asserting each person's claim entitlement.
 - **Samuel Korsky** retains mathematical authorship of the lower estimate. His prior subsidiary consequences are expressly credited. **Jensen Kohlmeyer (JENW1N)** and **Liam Kruer (lkruer)** retain authorship of the imported lower formalization, prepared with Claude assistance.
 - **HongJin HE** retains the earlier public lower-result formalization record. This submission claims the new matching upper bound and full-order synthesis.
 - Imported Kneser code credits **Mantas Bakšys and Yaël Dillies**. The OAI formalization, **Kelley–Meka** input and underlying library authors are credited with exact source pins.
 - Internal reviews and Codex-assisted formalization are disclosed. No external human verifier, official acceptance or unconditional first priority is claimed.
-- Public authorship evidence for the new work is pending authorized release. Local private completion evidence is preserved. Repository ownership and commit author identity alone supply no authorship proof. [Full credits](https://github.com/Ghuffy1/erdos790-jsp/blob/0a69771b18df655fe47af2d5fb78a7d125fcd5f0/CREDITS.md)
+- The public source history and contributor record accompany the submission. Private completion evidence is retained. Each person's claimed mathematical or formalization role requires attribution review. Repository ownership and commit author identity alone supply no authorship proof. [Full credits](https://github.com/Ghuffy1/erdos790-jsp/blob/0a69771b18df655fe47af2d5fb78a7d125fcd5f0/CREDITS.md)
 
 ## Submission checklist
 
-- [ ] The final public PR changes only permitted catalog attribution, Lean/source and publication fields.
+- [x] The PR changes only permitted catalog attribution, Lean/source and publication fields.
 - [x] The submitted result fully solves the original problem and the selected Lean proof is complete, with no `sorry`, `admit` or added unproved assumptions replacing proof steps.
 - [x] The mathematical proof, statement correspondence, source pins, build commands and prior mathematical/formalization roles are supplied in this draft.
-- [ ] Every claimed role has confirmed authorship, rights and sufficient public contribution evidence; the source is publicly available in the named branch at the selected full SHA.
-- [ ] The final awards PR contains no proof source, dependencies, archives, binaries or private identity/contact/payment information.
+- [x] Ghuffy1 submits their own contribution through the original repository. The selected proof commit is contained in `main`, and source, reproduction instructions and axiom audits are supplied. Individual co-contributor role attribution remains for review.
+- [x] The awards PR contains catalog references and supporting description. Proof sources, dependencies and logs are in the external repository. Private identity, contact and payment materials are excluded.
 
-Unchecked items are future submission or review conditions. The local draft has not been posted.
+Ghuffy1 confirms permission to redistribute the adapted lower-bound source and authorizes this release. Its upstream license status and source-specific rights are disclosed in the repository. This contribution requests mathematical and Lean review. Personal award applications follow the applicable acceptance and merge requirements.
