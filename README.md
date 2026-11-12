@@ -53,7 +53,7 @@ The declared proof and bridge targets must report only `propext`, `Classical.cho
 
 JSP-000649 follows the legacy process. The checked official catalog currently records Open, Lean proof No and Eligible to claim No. A complete result can be submitted for review. Official mathematical acceptance, Lean acceptance, priority adjudication and award eligibility remain pending. [Pinned rules](submission/RULES.md)
 
-The original source repository is [Ghuffy1/erdos790-jsp](https://github.com/Ghuffy1/erdos790-jsp), branch `main`. The [submission text](submission/PR_DRAFT.md) and [catalog patch](submission/catalog.patch) accompany the JSP contribution. The selected proof commit and verification-evidence commit are recorded separately in [SOURCE.json](submission/SOURCE.json).
+The original source repository is [Ghuffy1/erdos790-jsp](https://github.com/Ghuffy1/erdos790-jsp), branch `main`. The catalog contribution is submitted as [JSP pull request 5573](https://github.com/TheJustinSunPrize/awards/pull/5573) and awaits official review. The [submission text](submission/PR_DRAFT.md) and [catalog patch](submission/catalog.patch) accompany the JSP contribution. The selected proof commit and verification-evidence commit are recorded separately in [SOURCE.json](submission/SOURCE.json).
 
 ## License and provenance
 
